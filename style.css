@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(180deg, #927F71 9%, #21201C 18%, #37342F 20%, #B1A8A1 22%, 
+    #DEDDC8 35%, #75795E 60%, #3C3A2D 70%, #1D1F14 80%, #503031 90%, #734C3B 100%);
+}
+
+.main{
+    background-image: url("me new.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.intro{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: table;
+}
+.intro h1{
+    font-size: 90px;
+    text-transform: uppercase;
+    margin: 10px;
+    color: rgb(61, 58, 58);
+}
+.intro h4{
+    font-size: 36px;
+    margin: 0;
+    font-weight: 300;
+    color: rgb(165, 160, 160);
+}
+
+.intro .ttl{
+    display: table-cell;
+    vertical-align: middle;
+}
