@@ -2,16 +2,39 @@ html, body{
     margin: 0;
 }
 
-body{
-    background: linear-gradient(180deg, #927F71 9%, #21201C 18%, #37342F 20%, #B1A8A1 22%, 
-    #DEDDC8 35%, #75795E 60%, #3C3A2D 70%, #1D1F14 80%, #503031 90%, #734C3B 100%);
+.bg_grad{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.bg_grad .g1{
+    /* left */
+    background: linear-gradient(180deg, #F2EDF1 10%, #F3EEF2 20%, #EFEBEC 30%, #E8E3E7 40%, 
+    #94A0A0 57%, #BCBFC6 62%, #97A0A9 70%, #8F969C 80%, #A0AAB3 90%, #99A4AA 100%);
+    height: 100%;
+    width: 50%;
+    position: absolute;
+
+}
+
+.bg_grad .g2{
+    /* right */
+    background: linear-gradient(180deg, #F2EDF1 10%, #F3EEF2 20%, #EFEBEC 30%, #E8E3E7 40%, 
+    #94A0A0 57%, #BCBFC6 62%, #97A0A9 70%, #8F969C 80%, #A0AAB3 90%, #99A4AA 100%);
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
 }
 
 .main{
-    background-image: url("me new.jpg");
+    background-image: url("me 2.jpg");
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
+    position: relative;
 }
 .intro{
     height: 100vh;
